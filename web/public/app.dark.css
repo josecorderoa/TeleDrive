@@ -1,0 +1,43 @@
+@import '/antd.dark.css';
+
+.ant-row, .ant-layout, footer, .ant-layout-footer {
+  background: #141414 !important;
+}
+
+.rce-container-citem, .rce-citem {
+  background: #141414 !important;
+}
+
+.rce-mbox, .rce-smsg {
+  background: rgba(255, 255, 255, 0.04) !important;
+}
+
+.rce-mbox-left-notch, .rce-mbox-right-notch {
+  fill: rgba(255, 255, 255, 0.04) !important;
+}
+
+.rce-mbox-time, .rce-citem-body--top-time {
+  color: rgba(255, 255, 255, 0.45) !important;
+}
+
+.rce-mbox-reply, .rce-mbox-file > button {
+  background: #141414 !important;
+}
+
+.ant-list-split .ant-list-item {
+  border-bottom: none;
+}
+
+.rce-citem-body--bottom-title {
+  color: rgba(255, 255, 255, 0.45) !important;
+}
+
+.ant-modal-body .ant-form-item-label,
+.ant-modal-body .ant-form-item-control-input,
+.ant-modal-body .ant-row {
+  background: #1f1f1f !important;
+}
+
+.ant-menu.ant-menu-sub.ant-menu-vertical {
+  background: #141414 !important;
+}

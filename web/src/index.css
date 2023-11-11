@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body {
+  overflow-x: hidden !important;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+.container {
+  min-height: 79vh;
+  padding: 24px 12px;
+  margin-bottom: 100px;
+}
+
+.logo {
+  float: left;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.input-search-round input::before, .input-search-round .ant-input-affix-wrapper, .input-search-round .ant-input-group > .ant-input:first-child {
+  border-radius: 32px 0 0 32px !important;
+  padding: 4px 10px 4px 15px;
+}
+
+.input-search-round button.ant-btn.ant-btn-primary.ant-input-search-button, .input-search-round .ant-input-group-addon:last-child {
+  border-radius: 0 32px 32px 0 !important;
+  padding: 4px 12px;
+}
+
+.tableFiles td {
+  cursor: pointer;
+}
+
+.ant-table-placeholder {
+  overflow: -moz-hidden-unscrollable;
+}
+
+.ant-menu.ant-menu-sub.ant-menu-vertical {
+  background: #0088CC;
+}
+
+.rce-citem-body--bottom-status span {
+  width: 100% !important;
+  border-radius: 15px !important;
+  padding: 0 5px !important;
+  font-size: 11px !important;
+}
+
+.ant-layout-sider.messaging {
+  flex: none !important;
+  min-width: 0 !important;
+  max-width: 430px !important;
+  width: 100% !important;
+}
+
+.ant-layout-sider.messaging.ant-layout-sider-collapsed.ant-layout-sider-zero-width {
+  flex: none !important;
+  min-width: 0 !important;
+  max-width: 0 !important;
+  width: 0 !important;
+}
+
+.messageItem p:last-child {
+  margin-bottom: 0 !important;
+}
+
+.messageItem pre {
+  white-space: pre-wrap;
+  font-size: 12px;
+}
+
+.ant-popover-placement-bottomRight .ant-popover-inner-content {
+  padding: 0 !important;
+}
+
+.view .ant-drawer-content-wrapper {
+  height: 100vh !important;
+}
+
+.ant-modal.view {
+  position: sticky !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.view .ant-modal-body {
+  padding: 0 !important;
+}
+
+.ant-form-item .ghost.ant-select {
+  width: 149px !important;
+  text-align: right !important;
+}
+
+.ghost.ant-select .ant-select-selector {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.ant-list-item-action > li {
+  padding: 0 !important;
+}
+
+.ant-list-split .ant-list-header {
+  border-bottom: none !important;
+}
+
+.ant-list-split .ant-list-item {
+  border-bottom: none !important;
+}

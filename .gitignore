@@ -1,0 +1,15 @@
+node_modules/
+.DS_Store
+.vscode/
+dist/
+build/
+keys
+.env
+*.env
+.vercel
+lab/
+sessions/
+*.crt
+dump\.rdb
+*.log
+.cached/
